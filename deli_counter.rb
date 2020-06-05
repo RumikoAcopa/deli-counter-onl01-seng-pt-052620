@@ -3,7 +3,7 @@
 #another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 def line(line_array)
-  line_array == 0
+  if line_array.size == 0
   puts "The line is currently empty."
 
 else
